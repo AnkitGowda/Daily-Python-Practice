@@ -1,0 +1,38 @@
+1--Asks the user for a string. Prints how many characters are in the string, excluding spaces.
+
+text = input("Enter a string: ")
+
+# remove spaces
+text_without_spaces = text.replace(" ", "")
+
+# count characters
+count = len(text_without_spaces)
+
+print("Number of characters (excluding spaces):", count)
+
+2--Escape Sequences
+
+-Using comma
+num1 = ("enter a num1: ")
+num2 = ("enter a num2: ")
+
+print(num1, num2)
+
+-Print in two lines
+num1 = ("enter a num1: ")
+num2 = ("enter a num2: ")
+
+print(num1)
+print(num2)
+
+-If you want newline in one print
+num1 = "enter a num1:"
+num2 = "enter a num2:"
+
+print(num1 + "\n" + num2)
+
+'''
+\n → newline inside a string
+
+, → separate values in print()
+'''
